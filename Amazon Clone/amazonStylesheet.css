@@ -1,0 +1,379 @@
+body{
+    background-color: rgb(227, 221, 221);
+}  
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav{
+    background-color: #131921;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+.nav-border:hover {
+    box-shadow: inset 0 0 0 1px #ffffff; 
+    transition: box-shadow 0.01s ease;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+
+/* logo box */
+.nav-first{
+    display: inline-block;
+    grid-row: 2;
+    width: 219px;
+}
+.nav-logo{
+    height: 54px;
+    width: 115px;
+    display: inline-block;
+    margin: 3px 3px 3px 10px;
+    background-image: url('amazon_logo.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    height: 52px;
+    width: 131px;
+    
+}
+.logo{
+    margin: 5px 5px 5px 6px;
+}
+
+/* Address Box */
+.nav-add{
+    height: 54px;
+    width: 91px;
+    display: inline-block;
+    color: #f0f0f0;
+    margin-top: 3px;
+
+    margin: 3px 2px 2px 2px;
+    position: absolute;
+
+}
+.add-icon{
+    display: inline-block;
+    width: 15px;
+    margin-left: 7px;
+    
+
+}
+.add-t{
+    display: inline-block;
+    margin-top: 5px;
+}
+.S1{
+    font-family: sans-serif, serif;
+    font-size: 12px;
+    margin-bottom: -2px;
+}
+.S2{
+    font-family: sans-serif, serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+/* search bar of nav window */
+.nav-middle{
+    display: inline-block;
+    position: absolute;
+    height: 60px;
+}
+.nav-drop{
+    height: 38px;
+    width: 45pxpx;
+    display: inline;
+    margin: 10px 0px 7px 10px;
+}
+.nav-select{
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    margin: 0px -4px 0px 0px;
+    background-color: #f0f3f3;
+}
+.nav-search{
+    display: inline-block;
+}
+
+.SA{
+    height: 40px;
+    width: 52vw;
+    margin: 10px 0px;
+    border: none;
+
+}
+.BA{
+    height: 40px;
+    width: 46px;
+    margin: 10px 8px 10px -5px;
+    border: none;
+    background-color: rgb(251, 181, 75);
+    border-radius: 0px 5px 5px 0px;
+
+
+}
+.box-last{
+    /* display: inline-block;    background-color: #f0f0f0;
+ */
+    position: absolute;
+    right: 11px;
+    top: 4px;
+    height: 52px;
+    width: 24.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.nav-lang{
+    height: 52px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flag{
+    height: 20px;
+    width: 20px;
+    margin-left: -12px;
+}
+.lang-d{
+    height: 20px;
+    width: 24px;
+}
+.lang-sel{
+    width: 41px;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.nav-log{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log-box{
+        margin: 0px 6px;
+}
+.logg{
+    color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.down-log{
+    font-weight: bolder;
+
+}
+
+.nav-order{
+    height: 52px;
+    width: 77px;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order-box{
+    margin: 0px 5px;
+}
+.ord{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.order1{
+    font-size: 13px;
+}
+.order2{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.nav-cart{
+    height: 52px;
+    width: 84px;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cart-icon{
+    font-size: 34px;
+    display: inline-block;
+}
+.cart-font{
+    font-size: 17px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: -5px;
+
+}
+
+
+.sub-nav{
+    height: 39px;
+    width: 100vw;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.b1{
+    height: 39px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: s ;
+    padding: 6px;
+    margin: 5px 5px 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.b2{
+    height: 39px;
+    display: flex;
+    align-items: center;
+    margin: 0px 2px;
+    padding: 0px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+/* main body of the whole page  */
+.body-part{
+    width: 100vw;
+    height: 70vh;
+    background-image: url('body image.png');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.blank{
+    width: 100vw;
+    height: 34vh;
+}
+.msg-bar{
+    background-color: rgba(255, 255, 255, 1);
+    height: 40px;
+    width: 96%;
+    margin: 6px 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg-p{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* this part is for the cards that shows differnt catagories */
+.card-box{
+    width: 98vw;
+    height: 100vh;
+    margin: 10px 10px;
+    /* background-color: rgba(248, 248, 248, 0.647);
+    border: 2px solid black; */
+    display: grid;
+    grid-template-areas: "box1 box2 box3 box4"
+                            "box5 box6 box7 box8";
+}
+.card{
+    height: 400px;
+    width: 23vw;
+    /* border: 2px solid red; */
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box-1{
+    grid-area: box1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}.box-2{
+    grid-area: box2;
+
+    
+}.box-3{
+    grid-area: box3;
+
+    
+}.box-4{
+    grid-area: box4;
+    
+}.box-5{
+    grid-area: box5;
+}.box-6{
+    grid-area: box6;
+}.box-7{
+    grid-area: box7;
+
+}.box-8{
+    grid-area: box8;
+ 
+}
+
+.catagory{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px 0px 10px;
+    font-size: 15px;
+
+}
+.image {
+    height: 340px;
+    margin: 10px;
+    width: 94%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+/* Footer declearation of the page */
+footer{
+    height: 300px;
+    width: 100vw;
+    /* background-color: #131921; */
+    background: linear-gradient(to bottom, rgb(77, 76, 76), black);
+    color: #f0f0f0;
+    display: inline-block;
+    /* position: absolute;
+    bottom: -858px; */
+    margin-top: 50%;
+
+}
+.f1{
+     background: linear-gradient(to bottom, rgb(227, 221, 221), black, rgb(77, 76, 76));
+     height: 60px;
+     text-align: center;
+}
